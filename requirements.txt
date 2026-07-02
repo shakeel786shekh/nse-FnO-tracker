@@ -1,0 +1,19 @@
+# AngelOne SmartAPI version — requirements
+# pip install -r requirements_angel.txt
+
+# AngelOne official SDK
+smartapi-python==1.3.4
+
+# TOTP 2FA (required by AngelOne)
+pyotp==2.9.0
+
+# Google Sheets
+gspread==6.1.2
+google-auth==2.29.0
+
+# Greeks calculator
+scipy==1.13.0
+numpy==1.26.4
+
+# HTTP (fallback)
+requests==2.31.0
